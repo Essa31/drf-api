@@ -1,4 +1,4 @@
-"""games_api_project URL Configuration
+"""bike_api_project URL Configuration
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.1/topics/http/urls/
 Examples:
@@ -17,5 +17,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/games/', include('games.urls')),
+    path('api/v1/bike/', include('bike.urls')),
 ]
